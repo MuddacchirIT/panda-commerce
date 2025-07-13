@@ -7,65 +7,66 @@
     "wdth" 100;
     }
 
-
-    *{
-    margin: 5px 0;
-    padding: 0 3px;
+*{
+    box-sizing: border-box;
     }
-
+ 
+.container{
+    max-width: 1280px;
+    margin: auto;
+    }
+    /* navbar section styled here */
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
-}
+    }
 
 .nav-items{
     display: flex;
     justify-content: space-between;
-    gap: 5px;
-    width: 390px;
-}
+    gap: 20px;
+    padding-right: 30px;
+    padding-left: 1px;
+    }
 
 .nav-items li{
     list-style: none;
-    background-color: #f8f5f8; 
+    background-color: #f8f5f8;
 }
 
 .nav-items li:hover{
     background-color: rgb(195, 223, 248);
 }
 
-
 .nav-items li a{
     text-decoration: none;
     color: #707070;
-    font-weight: 500px;
-    font-size: 18px;
+    font-size: 16px;
+    padding: 0 12px;
 }
 
 .search-parents{
-    color: #BABABA;
+    color: #bababa;
     
 }
 
 .search-parents input{
     border-radius: 26px;
-    padding: 15px 10px;
-    width: 300px;
+    padding: 10px 25px;
+    width: 280px; 
     background-color: wheat;
     border: none;
-}
 
+}
 .search-parents i{
     position: relative;
-    right: 55px;
-    top: 5px;
+    right: 43px;
+    top: 4px;
     font-size: 20px;
     border: none;
     
 }
-
 .search-parents placeholder {
     font-size: 55px;
 }
