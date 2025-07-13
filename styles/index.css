@@ -29,7 +29,7 @@ nav{
 
 .nav-items li{
     list-style: none;
-    background-color: #f8f5f8;   
+    background-color: #f8f5f8; 
 }
 
 .nav-items li:hover{
@@ -41,7 +41,7 @@ nav{
     text-decoration: none;
     color: #707070;
     font-weight: 500px;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .search-parents{
